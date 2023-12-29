@@ -1,0 +1,17 @@
+Hash tabloları, verileri hızlı ve etkin bir şekilde saklamak ve almak için kullanılır.
+Bir hash tablo, bir anahtarın değerini (value) yansıtır. Örneğin, bir ürünün fiyatını saklamak istiyorsak, ürünün adını (anahtar) kullanabilir ve bu anahtarın değerini ürünün fiyatı olarak ayarlayabiliriz.Hash tablolarının kullanımı, bir hash fonksiyonu ile birleştirilir. Bu hash fonksiyonu, verileri bir diziye indeksler. Bu süreç, verilerin hızlı bir şekilde saklanmasını ve alınmasını sağlar. Örnek olarak:
+
+"DATA: lt_ogrenciler TYPE HASHED TABLE OF ty_ogrenci WITH UNIQUE KEY id.
+DATA: ls_ogrenci TYPE ty_ogrenci."
+
+Bu örnekte, ty_ogrenci adında bir yapı tanımladık. Bu yapı, id ve name olmak üzere iki alan içeriyor. Ardından, lt_ogrenciler adında, ty_ogrenci tipinde bir hash tablo oluşturduk. Bu tablonun benzersiz anahtarı id alanıdır.
+Sonra, ls_ogrenci adında bir satır oluşturup bu satırı lt_ogrenciler tablosuna ekleyip. Bu işlemi iki kez tekrarladık, böylece tablomuzda iki öğrenci bilgisi oldu:
+
+"ls_ogrenci-id = 1.
+ls_ogrenci-name = 'Ali'.
+INSERT ls_ogrenci INTO TABLE lt_ogrenciler.
+
+ls_ogrenci-id = 2.
+ls_ogrenci-name = 'Ayşe'.
+INSERT ls_ogrenci INTO TABLE lt_ogrenciler."
+

@@ -1,0 +1,1 @@
+se11 den BKPF verisine ulaştıktan sonra 'Append Strucrure' butonuna basarak yeni structure oluşturarak BKPF içerisine ekleme yapabiliyoruz. Z'li alan denilmesinin sebebi ise kullanıcının oluşturduğu yapıyı göstermek için 'zhd_deneme' tarzında yapı kullanılmasıdır.

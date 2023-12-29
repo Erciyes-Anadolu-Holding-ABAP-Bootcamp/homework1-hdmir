@@ -1,0 +1,3 @@
+SAP ABAP’da bir view, birden fazla tablonun belirli alanlarını birleştiren bir yapıdır. View’lar, genellikle belirli bir işlemi gerçekleştirmek için gereken verileri bir araya getirmek için kullanılır. Örneğin, bir müşterinin sipariş bilgilerini ve bu siparişlerin ayrıntılarını bir arada görmek istiyorsanız, bu iki tabloyu birleştiren bir view oluşturabiliriz.
+View ve tablo arasındaki fark şudur:
+Tablolar verileri depolama işlemi yapar fakat view'lar depolama yapmaz ve mevcut tablolardan veri çeker.

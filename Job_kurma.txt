@@ -1,0 +1,6 @@
+Job kurma işlevi şu şekilde gerçekleşir:
+-sm36 işlem kodu çalıştırılır.
+-Açılan pencerede kurulacak olan Job'a isim verilir ve sınıfı seçilir. 
+-"Spool list recipient" üzerine tıklayarak çıktıyı e-posta ile alış sağlanabilir.
+-"Start Condition" ile çalışma gün ve saat aralığı ayarlanır.
+-Gerekli bilgiler tamamlandıktan sonra kaydet denilerek işlem sonlandırılır.

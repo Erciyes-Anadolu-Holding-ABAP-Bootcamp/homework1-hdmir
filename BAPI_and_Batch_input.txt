@@ -1,0 +1,4 @@
+BAPI:
+BAPI'ler, SAP işlemlerini çağırmak ve veri alışverişini gerçekleştirmek için kullanılır. Dış uygulamaların SAP sistemine entegrasyonunu kolaylaştırmak için tasarlanmıştır.
+Batch Input:
+Batch Input, SAP sistemi içinde büyük miktarda veriyi otomatik olarak işlemek için kullanılan bir yöntemdir. Bu yöntemle, kullanıcıların tekrarlanan işlemleri elle girmeleri yerine, bir dosya içinde toplanan verileri kullanarak büyük işlemler gerçekleştirilebilir. Tipik olarak, bir veri yüklemesi işlemi sırasında kullanıcı tarafından manuel giriş gerekmez; veri dosyası, bir arka planda çalışan program aracılığıyla işlenir.
